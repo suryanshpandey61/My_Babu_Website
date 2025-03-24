@@ -4,6 +4,7 @@ import '../app/globals.css'
 import { Poppins } from 'next/font/google'
 import HeroSection from '@/components/HeroSection'
 import Work from '@/components/Work'
+import WhoWeAre from '@/components/WhoWeAre'
 
 const poppins = Poppins({
     weight:['300','400','500','600'],
@@ -16,6 +17,7 @@ function index() {
         <Navbar/>
         <HeroSection/>
         <Work/>
+        <WhoWeAre/>
     </div>
   )
 }
