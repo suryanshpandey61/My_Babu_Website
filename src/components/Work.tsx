@@ -35,7 +35,7 @@ function Work() {
                 className='w-full'
                 />
                 <h1 className='flex items-center mt-[4%] gap-x-3 text-[18px] font-medium'> <Image src={TwoImg} alt='2' /> Expert Matching:</h1>
-                <p className='text-[14px] pl-[16%]'>Our system automatically connects you with a vetted 'Kagzi Sahayak' who specializes in your required department.</p>
+                <p className='text-[14px] pl-[16%]'>Our system automatically connects you with a vetted Kagzi Sahayak who specializes in your required department.</p>
             </div>
             {/* Recive Assistant card  */}
             <div>
@@ -55,7 +55,7 @@ function Work() {
                 className='w-full'
                 />
                 <h1 className='flex items-center mt-[4%] gap-x-3 text-[18px] font-medium'> <Image src={FourImg} alt='4' />Track Your Progress:</h1>
-                <p className='text-[14px] pl-[16%]'>Stay updated with the real time tracking on your application's status untill completion.</p>
+                <p className='text-[14px] pl-[16%]'>Stay updated with the real time tracking on your application status untill completion.</p>
             </div>
         </div>
 
