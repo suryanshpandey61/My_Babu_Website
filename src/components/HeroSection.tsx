@@ -4,10 +4,13 @@ import heroSectionUser from '../assests/heroSectionUser.png'
 import rentAgreementImg from '../assests/rentAgreementImg.png'
 import jobsAvailablebtn from '../assests/jobsAvailablebtn.png'
 import dottedLineImg from '../assests/dottedLineImg.png'
+import online from '../assests/onlineApplicationImg.png'
+import call from '../assests/call.png'
+import graph from '../assests/graph.png'
 function HeroSection() {
   return (
     <div className='w-full'>
-        <div className='w-[70%] border mt-[5%] mx-auto  gap-[20px] text-center '>
+        <div className='w-[70%]  mt-[5%] mx-auto  gap-[20px] text-center '>
               <h1 className='text-[36px] font-semibold text-[#004016]'>
                 Your Personal Assistant for Hassle-Free 
                 Government Paperwork
@@ -43,8 +46,10 @@ function HeroSection() {
                 />
               </div>
         </div>
-        <div>
-          
+        <div className='w-[85%] mt-[5%] mx-auto flex gap-x-[10px]'>
+           <button className='flex bg-[#EFEFEF] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={online} alt='online-img'/>Online Application</button>
+           <button className='flex bg-[#EFEFEF] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={call} alt='online-img'/>24/7 Support</button>
+           <button className='flex bg-[#EFEFEF] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={graph} alt='online-img'/>Expedicted Processing</button>
         </div>
     </div>
   )
