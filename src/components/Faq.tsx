@@ -5,6 +5,11 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Image from "next/image";
+import topLeft from '../assests/topLeft.png'
+import topRight from '../assests/topRight.png'
+import bottomleft from '../assests/bottomLeft.png'
+import bottomright from '../assests/bottomRight.png'
 
 function Faq() {
   return (
@@ -65,13 +70,27 @@ function Faq() {
         </Accordion>
       </div>
       {/* input form div  */}
-      <div className="w-[85%] p-10 mx-auto bg-[#173E33] mt-[4%] rounded-xl">
+      <div className="w-[85%]  mx-auto bg-[#173E33] mt-[4%] rounded-xl">
+        <div className="flex w-[80%] mx-auto justify-between">
+        <Image
+            src={topLeft}
+            alt="top=left-gradient"
+            className=""
+            />
+        <Image
+          src={topRight}
+          alt="top-right image"
+          className=""
+          />
+        </div>
         {/* heading div  */}
         <div className="w-[70%] mx-auto  text-center">
-          <h1 className="text-[32px] text-white">
+           
+          <h1 className="text-[32px] -mt-2 text-white">
             Have Question or need furthur assistant? Reach out to us-we are here
             to help!
           </h1>
+          
         </div>
         <div  className="mt-[2%]">
           <p className="text-[24px] text-white mx-auto text-center">
@@ -79,7 +98,7 @@ function Faq() {
             possible
           </p>
         </div>
-        <form action="" className="w-[59%] mx-auto">
+        <form action="" className="w-[59%] mx-auto ">
             {/* email &  phone number input  */}
           <div className="flex gap-x-2 mt-[4%]">
             <div className="bg-[#48C070] rounded-xl w-[48%]">
@@ -89,10 +108,23 @@ function Faq() {
               <input type="text" placeholder="Phone Number" className="text-white p-1 text-[24px] pl-2 font-medium"/>
             </div>
           </div>
-          <div className="bg-[#48C070] rounded-xl w-[97.5%] mt-[2%]">
-            <input type="text" placeholder="Address"  className="text-white p-3 text-[24px] pl-2 font-medium"/>
-          </div>
+        
         </form>
+        <div className="flex pb-[5%] w-full">
+         <Image
+          src={bottomleft}
+          alt="bottom-left"
+          className=""
+          />
+          <div className="bg-[#48C070] rounded-xl  mt-[2%]">
+            <input type="text" placeholder="Address"  className="text-white p-4 text-[24px] pl-2 font-medium"/>
+          </div>
+          <Image
+          src={bottomright}
+          alt="bottom-right"
+          className=""
+          />
+         </div>
       </div>
     </div>
   );
