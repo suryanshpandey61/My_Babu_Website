@@ -6,6 +6,7 @@ import HeroSection from '@/components/HeroSection'
 import Work from '@/components/Work'
 import WhoWeAre from '@/components/WhoWeAre'
 import Services from '@/components/Services'
+import Faq from '@/components/Faq'
 
 const poppins = Poppins({
     weight:['300','400','500','600'],
@@ -20,6 +21,7 @@ function index() {
         <Work/>
         <WhoWeAre/>
         <Services/>
+        <Faq/>
     </div>
   )
 }
