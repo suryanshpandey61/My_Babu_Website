@@ -106,13 +106,13 @@ function Faq() {
          </div>
         
 
-         <div className="w-full   justify-evenly mt-[2%] mb-[5%] flex">
+         <div className="w-full ml-[0.5%]   justify-evenly mt-[2%] mb-[5%] flex">
           <Image
           src={bottomleft}
           alt="bottom-left-gradient"
           className="relative -top-[40px]"
           />
-          <input type="text" name="" id="" placeholder="Address" className="bg-[#48C070] w-[66%]  text-[24px] rounded-md p-1 text-white"/>
+          <input type="text" name="" id="" placeholder="Address" className="bg-[#48C070]  w-[66%]  text-[24px] rounded-md p-1 text-white"/>
           <Image
           src={bottomright}
           alt="bottom-right-gradient"
