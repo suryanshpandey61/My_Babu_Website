@@ -99,22 +99,24 @@ function Faq() {
           </p>
         </div>
          
-         <div className="w-[51%] mt-4 flex gap-x-2 mx-auto">
+        
+        <div className="w-[99%] justify-center mt-4 flex gap-x-2 mx-auto">
           <input type="text" placeholder="Email" className="bg-[#48C070] text-[24px] rounded-md p-1 text-white"/>
           <input type="text"  placeholder="Phone Number" className="bg-[#48C070] text-[24px] rounded-md p-1 text-white"/>
          </div>
+        
 
-         <div className="w-full  justify-evenly mt-[2%] mb-[5%] flex">
+         <div className="w-full   justify-evenly mt-[2%] mb-[5%] flex">
           <Image
           src={bottomleft}
           alt="bottom-left-gradient"
-          className="relative"
+          className="relative -top-[40px]"
           />
-          <input type="text" name="" id="" placeholder="Address" className="bg-[#48C070] w-[70%]  text-[24px] rounded-md p-1 text-white"/>
+          <input type="text" name="" id="" placeholder="Address" className="bg-[#48C070] w-[66%]  text-[24px] rounded-md p-1 text-white"/>
           <Image
           src={bottomright}
           alt="bottom-right-gradient"
-          className=""
+          className="relative -top-[40px]"
           />
          </div>
        
