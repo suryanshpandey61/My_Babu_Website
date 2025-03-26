@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='w-full'>
  
-            <div className='w-[85%] flex justify-between'>
+            <div className='w-[85%] mx-auto mt-[6%] flex justify-between'>
                     {/* left img div  */}
                     <div>
                         <Image
@@ -13,10 +13,10 @@ function Footer() {
                         alt='rectangle-image'
                         />
                     </div>
-                    <div> 
+                    <div className='flex w-[50%] justify-evenly'> 
                             {/* 1 col  */}
                             <div className='flex flex-col'> 
-                                <h1>Quick Links</h1>
+                                <h1 className='leading-[28px]'>Quick Links</h1>
                                 <a href="">Home</a>
                                 <a href="">About Us</a>
                                 <a href="">Services</a>
@@ -24,7 +24,7 @@ function Footer() {
                                 <a href="">Contact Us</a>
                             </div>
                             {/* 2 col  */}
-                            <div>
+                            <div className='flex flex-col'>
                                     <h1>Socials</h1>
                                     <a href="">X</a>
                                     <a href="">Linked In</a>
@@ -32,7 +32,7 @@ function Footer() {
                                     <a href="">Instagram</a>
                             </div>
                             {/* 3 col  */}
-                            <div>
+                            <div className='flex flex-col'>
                                 <h1>Legal</h1>
                                 <h2>Privacy Policy</h2>
                                 <h2>Terms & Conditions</h2>
