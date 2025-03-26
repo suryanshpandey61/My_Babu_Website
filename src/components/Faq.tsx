@@ -98,33 +98,28 @@ function Faq() {
             possible
           </p>
         </div>
-        <form action="" className="w-[59%] mx-auto ">
-            {/* email &  phone number input  */}
-          <div className="flex gap-x-2 mt-[4%]">
-            <div className="bg-[#48C070] rounded-xl w-[48%]">
-              <input type="text" placeholder="Email" className="text-white p-1 text-[24px] pl-2 font-medium" />
-            </div>
-            <div className="bg-[#48C070] rounded-xl w-[48%]">
-              <input type="text" placeholder="Phone Number" className="text-white p-1 text-[24px] pl-2 font-medium"/>
-            </div>
-          </div>
-        
-        </form>
-        <div className="flex pb-[5%] w-full">
-         <Image
+         
+         <div className="w-[51%] mt-4 flex gap-x-2 mx-auto">
+          <input type="text" placeholder="Email" className="bg-[#48C070] text-[24px] rounded-md p-1 text-white"/>
+          <input type="text"  placeholder="Phone Number" className="bg-[#48C070] text-[24px] rounded-md p-1 text-white"/>
+         </div>
+
+         <div className="w-full  justify-evenly mt-[2%] mb-[5%] flex">
+          <Image
           src={bottomleft}
-          alt="bottom-left"
-          className=""
+          alt="bottom-left-gradient"
+          className="relative"
           />
-          <div className="bg-[#48C070] rounded-xl  mt-[2%]">
-            <input type="text" placeholder="Address"  className="text-white p-4 text-[24px] pl-2 font-medium"/>
-          </div>
+          <input type="text" name="" id="" placeholder="Address" className="bg-[#48C070] w-[70%]  text-[24px] rounded-md p-1 text-white"/>
           <Image
           src={bottomright}
-          alt="bottom-right"
+          alt="bottom-right-gradient"
           className=""
           />
          </div>
+       
+        
+       
       </div>
     </div>
   );
