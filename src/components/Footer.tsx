@@ -13,8 +13,16 @@ function Footer() {
                         alt='rectangle-image'
                         />
                     </div>
-                    <div>
-                        
+                    <div> 
+                            {/* 1 col  */}
+                            <div>
+                                <h1>Quick Links</h1>
+                                <a href="">Home</a>
+                                <a href="">About Us</a>
+                                <a href="">Services</a>
+                                <a href="">How it Works</a>
+                                <a href="">Contact Us</a>
+                            </div>
                     </div>
             </div>
 
