@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-   <div className='w-full'>
+   <div className='w-full  '>
      <nav className=' w-[85%] z-50 mt-[2%]  p-[16px] rounded-[30px] h-[66px] items-center shadow-2xl  flex justify-between mx-auto'>
         <div>
             <a href="#hero-section"><span className='font-bold'>My</span><span>babu</span></a>

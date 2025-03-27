@@ -8,7 +8,7 @@ import bottomright from '../assests/bottomRight.png'
 function ContactUs() {
   return (
     <div>{/* input form div  */}
-    <div className="w-[85%] mx-auto bg-[#173E33] mt-[4%] rounded-xl">
+    <div className="lg:w-[85%] md:w-[90%] mx-auto bg-[#173E33] lg:mt-[4%] md:mt-[6%] rounded-xl">
       <div className="flex w-[80%] mx-auto justify-between">
       <Image
           src={topLeft}
@@ -38,7 +38,7 @@ function ContactUs() {
       </div>
        
       
-      <div className="w-[99%] justify-center  mt-4 flex gap-x-2 mx-auto">
+      <div className="lg:w-[99%] md:w-[70%] justify-center  mt-4 flex gap-x-2 mx-auto">
         <input type="text" placeholder="Email" className="bg-[#48C070] text-[24px] rounded-md p-1 text-white"/>
         <input type="text"  placeholder="Phone Number" className="bg-[#48C070] text-[24px] rounded-md p-1 text-white"/>
        </div>
@@ -48,13 +48,13 @@ function ContactUs() {
         <Image
         src={bottomleft}
         alt="bottom-left-gradient"
-        className="relative -top-[40px]"
+        className="lg:relative hidden -top-[40px]"
         />
-        <input type="text" name="" id="" placeholder="Address" className="bg-[#48C070]  w-[66%]  text-[24px] rounded-md p-1 text-white"/>
+        <input type="text" name="" id="" placeholder="Address" className="bg-[#48C070]  lg:w-[46.5%] lg:mr-2 w-[92.5%] text-[24px] rounded-md p-1 text-white"/>
         <Image
         src={bottomright}
         alt="bottom-right-gradient"
-        className="relative -top-[40px]"
+        className="lg:relative hidden -top-[40px]"
         />
        </div>
      

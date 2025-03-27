@@ -9,11 +9,11 @@ import {
 
 function Faq() {
   return (
-    <div className="w-[100%] mt-[4%]  flex flex-col items-center justify-center">
+    <div className="w-[100%]  lg:mt-[4%] mt-[5%]  flex flex-col items-center justify-center">
       <div className="text-[36px] font-semibold">
         Frequently Asked Questions
       </div>
-      <div className="w-[60%] mt-[2%]">
+      <div className="lg:w-[60%] lg:mt-[2%] md:w-[90%] md:mt-[4%]">
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1" className="bg-[#C5ECFA] rounded-xl p-2">
             <AccordionTrigger className="text-[20px] text-[#004016]">

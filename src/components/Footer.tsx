@@ -11,17 +11,18 @@ function Footer() {
                         <Image
                         src={ReactanlgeImg}
                         alt='rectangle-image'
+                        className='hidden'
                         />
                     </div>
-                    <div className='flex w-[50%]  justify-between'> 
+                    <div className='flex lg:w-[50%] w-full justify-between'> 
                             {/* 1 col  */}
                             <div className='flex flex-col'> 
                                 <h1 className='leading-[28px] font-bold text-[16px]'>Quick Links</h1>
-                                <a href="" className='text-[16px] leading-[28px] font-normal'>Home</a>
+                                <a href="#" className='text-[16px] leading-[28px] font-normal'>Home</a>
                                 <a href="" className='text-[16px] leading-[28px] font-normal'>About Us</a>
-                                <a href="" className='text-[16px] leading-[28px] font-normal'>Services</a>
-                                <a href="" className='text-[16px] leading-[28px] font-normal'>How it Works</a>
-                                <a href="" className='text-[16px] leading-[28px] font-normal'>Contact Us</a>
+                                <a href="#services" className='text-[16px] leading-[28px] font-normal'>Services</a>
+                                <a href="#work" className='text-[16px] leading-[28px] font-normal'>How it Works</a>
+                                <a href="#contactus" className='text-[16px] leading-[28px] font-normal'>Contact Us</a>
                             </div>
                             {/* 2 col  */}
                             <div className='flex flex-col'>

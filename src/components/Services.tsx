@@ -7,8 +7,8 @@ import applicationReview from "../assests/ApplicationReviewImg.png";
 
 function Services() {
   return (
-    <div className="w-[85%] rounded-3xl mx-auto bg-[#182D36] mt-[4%]">
-      <div className="w-[85%] mx-auto">
+    <div className="lg:w-[85%] w-[90%]  rounded-3xl mx-auto bg-[#182D36] md:mt-[8%] lg:mt-[4%]">
+      <div className="lg:w-[85%] w-[95%] mx-auto">
         {/* heading div  */}
         <div className="text-center ">
           <h1 className="text-[36px] pt-[3%] font-medium text-white">
@@ -16,14 +16,14 @@ function Services() {
           </h1>
         </div>
         {/* text div  */}
-        <div className="text-center text-white font-normal text-[20px]">
+        <div className="text-center text-white font-normal lg:mt-0 md:mt-[3%] text-[20px]">
           <p>
             Mybabu Offers a range of services tailored to your needs.Our experts
             help you with
           </p>
         </div>
        {/* 4  cards div  */}
-        <div className="mx-auto pb-[5%] w-[90%] mt-[2%]">
+        <div className="mx-auto pb-[5%] lg:w-[90%] w-[97%] lg:mt-[2%] mt-[9%]">
           {/* top 2 cards  */}
           <div className="flex  gap-x-4">
             {/* Document assistant card  */}
@@ -65,7 +65,7 @@ function Services() {
               <Image
                 src={applicationReview}
                 alt="process consultation image"
-                className="relative top-3"
+                className="relative lg:top-3 md:top-11"
               />
             </div>
             {/* Personalized Support  card  */}
@@ -78,7 +78,7 @@ function Services() {
               <Image
                 src={personalizedImg}
                 alt="document assistant image"
-                className="relative w-[150px] left-[57%] rounded-xl top-[11.5%]"
+                className="relative lg:w-[150px] md:top-3 md:w-[180px]  lg:left-[57%] rounded-xl lg:top-[11.5%]"
               />
             </div>
            

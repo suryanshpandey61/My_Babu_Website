@@ -3,7 +3,7 @@ import whoWeAreImg from '../assests/whoWeAreImg.png'
 import Image from 'next/image'
 function WhoWeAre() {
   return (
-    <div className='w-[85%] mx-auto mt-[5%]'>
+    <div className='lg:w-[85%] w-[90%] mx-auto lg:mt-[5%] mt-[9%]'>
 
           <div>
             <h1 className='text-[36px] font-semibold'>Who We Are ?</h1>
@@ -12,7 +12,8 @@ function WhoWeAre() {
             <Image
             src={whoWeAreImg}
             alt='Who We are Image'
-            style={{height:'480px',width:'400px'}}
+            className='lg:h-[480px] lg:w-[480px] md:h-[320px]'
+            // style={{height:'480px',width:'400px'}}
             />
             <p className='text-[20px]'>
               At my babu , we believe that dealing with the government paperwork should not be a hassle
