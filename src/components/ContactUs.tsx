@@ -9,7 +9,7 @@ function ContactUs() {
   return (
     <div>{/* input form div  */}
     <div className="lg:w-[85%] md:w-[90%] mx-auto bg-[#173E33] lg:mt-[4%] md:mt-[6%] rounded-xl">
-      <div className="flex w-[80%] mx-auto justify-between">
+      <div className="flex w-[8%] mx-auto justify-between">
       <Image
           src={topLeft}
           alt="top=left-gradient"
