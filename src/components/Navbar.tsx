@@ -7,7 +7,7 @@ function Navbar() {
         <div>
             <a href="#hero-section"><span className='font-bold'>My</span><span>babu</span></a>
         </div>
-        <div className='gap-x-[16px] '>
+        <div className='gap-x-[16px] flex'>
             <a href="#services">Services</a>
             <a href="#work">Work</a>
             <a href="#faq">FAQs</a>
