@@ -11,8 +11,8 @@ function HeroSection() {
   return (
     <div 
     id='hero-section'
-    className='w-full mx-auto   '>
-        <div className='md:w-[70%] w-full   justify-center  mt-[5%] mx-auto  gap-[20px] text-center '>
+    className='w-full mx-auto'>
+        <div className='md:w-[70%] w-full    justify-center  mt-[5%] mx-auto  gap-[20px] text-center '>
               <h1 className='text-[36px] font-semibold justify-center text-center text-[#004016]'>
                 Your Personal Assistant for Hassle-Free 
                 Government Paperwork

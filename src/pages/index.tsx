@@ -17,9 +17,7 @@ const poppins = Poppins({
 
 function index() {
   return (
-    <div className={poppins.className} 
-    style={{width:"100vw",border:"16px solid black"}}
-    >
+    <div className={poppins.className} >
       <Navbar/>
       <HeroSection />
      

@@ -10,7 +10,7 @@ import FourImg from '../assests/FourImg.png'
 import Image from 'next/image'
 function Work() {
   return (
-    <div className='lg:w-[85%] w-[90%] md:mt-[6%]  mx-auto lg:mt-[3%]'>
+    <div className='lg:w-[85%] w-[90%] md:mt-[6%]    mx-auto lg:mt-[3%]'>
         {/* heading div  */}
         <div>
             <h1 className='text-[36px]'>How Mybabu works?</h1>
