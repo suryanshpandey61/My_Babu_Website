@@ -17,28 +17,15 @@ const poppins = Poppins({
 
 function index() {
   return (
-    <div className={poppins.className} >
+    <div className={poppins.className}>
       <Navbar/>
-      <HeroSection />
-     
-      <div id="work">
-        <Work />
-      </div>
-      <div id="who-we-are">
-        <WhoWeAre />
-      </div>
-      <div id="services">
-        <Services />
-      </div>
-      <div id="faq">
-        <Faq />
-      </div>
-      <div id="contactus">
-        <ContactUs/>
-      </div>
-      <div id="footer">
-        <Footer />
-      </div>
+      <HeroSection/>
+      <Work/>
+      <WhoWeAre/>
+      <Services/>
+      <Faq/>
+      <ContactUs/>
+      <Footer/>
     </div>
   );
 }

@@ -6,9 +6,9 @@ function WhoWeAre() {
     <div className='lg:w-[85%] w-[90%] mx-auto lg:mt-[5%] mt-[9%]'>
 
           <div>
-            <h1 className='text-[36px] font-semibold'>Who We Are ?</h1>
+            <h1 className='md:text-[36px] text-[24px] flex md:justify-start mx-auto  font-semibold'>Who We Are ?</h1>
           </div>
-          <div className='flex items-center gap-x-5'>
+          <div className='flex  md:flex-row flex-col items-center gap-x-5'>
             <Image
             src={whoWeAreImg}
             alt='Who We are Image'

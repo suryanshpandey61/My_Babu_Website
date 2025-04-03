@@ -12,7 +12,7 @@ function HeroSection() {
     <div 
     id='hero-section'
     className='w-full mx-auto'>
-        <div className='md:w-[70%] w-full    justify-center  mt-[5%] mx-auto  gap-[20px] text-center '>
+        <div className='md:w-[70%] sm:w-full border border-black  lg:w-[70%]  justify-center  mt-[5%] mx-auto  gap-[20px] text-center '>
               <h1 className='text-[36px] font-semibold justify-center text-center text-[#004016]'>
                 Your Personal Assistant for Hassle-Free 
                 Government Paperwork
