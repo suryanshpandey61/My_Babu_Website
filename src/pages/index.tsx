@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 import ContactUs from "@/components/ContactUs";
 
 const poppins = Poppins({
-  weight: ["300", "400", "500", "600","700"],
+  weight: ["300", "400", "500", "600"],
   subsets: ["latin"],
 });
 
