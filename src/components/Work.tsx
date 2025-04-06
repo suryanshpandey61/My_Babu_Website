@@ -13,7 +13,7 @@ function Work() {
     <div className='lg:w-[85%] w-[90%] md:mt-[6%]    mx-auto lg:mt-[3%]'>
         {/* heading div  */}
         <div>
-            <h1 className='text-[36px]'>How Mybabu Work</h1>
+            <h1 className='text-[36px]'>How Mybabu Works</h1>
         </div>
         {/* grid-4 div  */}
         <div className='lg:grid-cols-4 gap-y-10 md:grid-cols-2 grid-cols-1 grid mt-[2%] gap-x-[1%]'>
